@@ -131,7 +131,7 @@ function mousePressed(){
       }else{
         gamestate=4;
         gameArray.length = 0;
-        lastgamel=gameLength;
+        lastgamel=gameLength-1;
         gameLength=1;
       }
   }}
